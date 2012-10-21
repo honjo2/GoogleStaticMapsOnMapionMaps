@@ -24,6 +24,13 @@
 		AE3A7B9616339A920057EBA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A7B6E16339A910057EBA3 /* Foundation.framework */; };
 		AE3A7B9E16339A920057EBA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7B9C16339A920057EBA3 /* InfoPlist.strings */; };
 		AE3A7BA116339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3A7BA016339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.m */; };
+		AE3A7BAB16339ADB0057EBA3 /* MapionMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A7BAA16339ADB0057EBA3 /* MapionMaps.framework */; };
+		AE3A7BAE16339AF80057EBA3 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7BAC16339AF80057EBA3 /* loading.png */; };
+		AE3A7BAF16339AF80057EBA3 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7BAD16339AF80057EBA3 /* pin@2x.png */; };
+		AE3A7BB116339B0C0057EBA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A7BB016339B0C0057EBA3 /* QuartzCore.framework */; };
+		AE3A7BB316339B110057EBA3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A7BB216339B110057EBA3 /* libsqlite3.dylib */; };
+		AE3A7BB616339B3E0057EBA3 /* GoogleStaticMap.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3A7BB516339B3E0057EBA3 /* GoogleStaticMap.m */; };
+		AE3A7BB816339D270057EBA3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7BB716339D270057EBA3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +67,14 @@
 		AE3A7B9D16339A920057EBA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE3A7B9F16339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleStaticMapsOnMapionMapsTests.h; sourceTree = "<group>"; };
 		AE3A7BA016339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleStaticMapsOnMapionMapsTests.m; sourceTree = "<group>"; };
+		AE3A7BAA16339ADB0057EBA3 /* MapionMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapionMaps.framework; sourceTree = "<group>"; };
+		AE3A7BAC16339AF80057EBA3 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading.png; path = MapionMaps.framework/Versions/A/Resources/loading.png; sourceTree = SOURCE_ROOT; };
+		AE3A7BAD16339AF80057EBA3 /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pin@2x.png"; path = "MapionMaps.framework/Versions/A/Resources/pin@2x.png"; sourceTree = SOURCE_ROOT; };
+		AE3A7BB016339B0C0057EBA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AE3A7BB216339B110057EBA3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AE3A7BB416339B3E0057EBA3 /* GoogleStaticMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleStaticMap.h; sourceTree = "<group>"; };
+		AE3A7BB516339B3E0057EBA3 /* GoogleStaticMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleStaticMap.m; sourceTree = "<group>"; };
+		AE3A7BB716339D270057EBA3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3A7BB316339B110057EBA3 /* libsqlite3.dylib in Frameworks */,
+				AE3A7BB116339B0C0057EBA3 /* QuartzCore.framework in Frameworks */,
 				AE3A7B6D16339A910057EBA3 /* UIKit.framework in Frameworks */,
 				AE3A7B6F16339A910057EBA3 /* Foundation.framework in Frameworks */,
 				AE3A7B7116339A910057EBA3 /* CoreGraphics.framework in Frameworks */,
+				AE3A7BAB16339ADB0057EBA3 /* MapionMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +107,10 @@
 		AE3A7B5D16339A910057EBA3 = {
 			isa = PBXGroup;
 			children = (
+				AE3A7BB716339D270057EBA3 /* README.md */,
+				AE3A7BB216339B110057EBA3 /* libsqlite3.dylib */,
+				AE3A7BB016339B0C0057EBA3 /* QuartzCore.framework */,
+				AE3A7BAA16339ADB0057EBA3 /* MapionMaps.framework */,
 				AE3A7B7216339A910057EBA3 /* GoogleStaticMapsOnMapionMaps */,
 				AE3A7B9916339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests */,
 				AE3A7B6B16339A910057EBA3 /* Frameworks */,
@@ -121,11 +143,13 @@
 			children = (
 				AE3A7B7B16339A910057EBA3 /* AppDelegate.h */,
 				AE3A7B7C16339A910057EBA3 /* AppDelegate.m */,
-				AE3A7B8416339A920057EBA3 /* MainStoryboard_iPhone.storyboard */,
+				AE3A7BB416339B3E0057EBA3 /* GoogleStaticMap.h */,
+				AE3A7BB516339B3E0057EBA3 /* GoogleStaticMap.m */,
 				AE3A7B8716339A920057EBA3 /* MainStoryboard_iPad.storyboard */,
+				AE3A7B8416339A920057EBA3 /* MainStoryboard_iPhone.storyboard */,
+				AE3A7B7316339A910057EBA3 /* Supporting Files */,
 				AE3A7B8A16339A920057EBA3 /* ViewController.h */,
 				AE3A7B8B16339A920057EBA3 /* ViewController.m */,
-				AE3A7B7316339A910057EBA3 /* Supporting Files */,
 			);
 			path = GoogleStaticMapsOnMapionMaps;
 			sourceTree = "<group>";
@@ -133,6 +157,8 @@
 		AE3A7B7316339A910057EBA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE3A7BAC16339AF80057EBA3 /* loading.png */,
+				AE3A7BAD16339AF80057EBA3 /* pin@2x.png */,
 				AE3A7B7416339A910057EBA3 /* GoogleStaticMapsOnMapionMaps-Info.plist */,
 				AE3A7B7516339A910057EBA3 /* InfoPlist.strings */,
 				AE3A7B7816339A910057EBA3 /* main.m */,
@@ -240,6 +266,9 @@
 				AE3A7B8316339A920057EBA3 /* Default-568h@2x.png in Resources */,
 				AE3A7B8616339A920057EBA3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				AE3A7B8916339A920057EBA3 /* MainStoryboard_iPad.storyboard in Resources */,
+				AE3A7BAE16339AF80057EBA3 /* loading.png in Resources */,
+				AE3A7BAF16339AF80057EBA3 /* pin@2x.png in Resources */,
+				AE3A7BB816339D270057EBA3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +306,7 @@
 				AE3A7B7916339A910057EBA3 /* main.m in Sources */,
 				AE3A7B7D16339A910057EBA3 /* AppDelegate.m in Sources */,
 				AE3A7B8C16339A920057EBA3 /* ViewController.m in Sources */,
+				AE3A7BB616339B3E0057EBA3 /* GoogleStaticMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +417,11 @@
 		AE3A7BA516339A920057EBA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoogleStaticMapsOnMapionMaps/GoogleStaticMapsOnMapionMaps-Prefix.pch";
 				INFOPLIST_FILE = "GoogleStaticMapsOnMapionMaps/GoogleStaticMapsOnMapionMaps-Info.plist";
@@ -398,6 +433,11 @@
 		AE3A7BA616339A920057EBA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoogleStaticMapsOnMapionMaps/GoogleStaticMapsOnMapionMaps-Prefix.pch";
 				INFOPLIST_FILE = "GoogleStaticMapsOnMapionMaps/GoogleStaticMapsOnMapionMaps-Info.plist";

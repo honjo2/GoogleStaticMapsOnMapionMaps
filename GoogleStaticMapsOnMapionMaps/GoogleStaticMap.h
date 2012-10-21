@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GoogleStaticMap.h
 //  GoogleStaticMapsOnMapionMaps
 //
 //  Created by honjo2 on 2012/10/21.
@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <MapionMaps/MapionMaps.h>
 
-@interface ViewController : UIViewController
+@interface GoogleStaticMap : MMAbstractEPSG900913Map
 
 @end

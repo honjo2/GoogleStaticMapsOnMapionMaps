@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GoogleStaticMap.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+  
+  GoogleStaticMap *googleStaticMap = [[GoogleStaticMap alloc] init];
+  
+  MMMapView *mapView = [[MMMapView alloc] initWithFrame:self.view.bounds key:@"2af36091efd531989641a0f01e195d65" map:googleStaticMap];
+  
+  mapView.zoom = 10;
+  
+  [self.view addSubview:mapView];
 }
 
 - (void)didReceiveMemoryWarning
