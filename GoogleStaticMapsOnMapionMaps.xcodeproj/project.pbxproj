@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE3A7B6D16339A910057EBA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A7B6C16339A910057EBA3 /* UIKit.framework */; };
+		AE3A7B6F16339A910057EBA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A7B6E16339A910057EBA3 /* Foundation.framework */; };
+		AE3A7B7116339A910057EBA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A7B7016339A910057EBA3 /* CoreGraphics.framework */; };
+		AE3A7B7716339A910057EBA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7B7516339A910057EBA3 /* InfoPlist.strings */; };
+		AE3A7B7916339A910057EBA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3A7B7816339A910057EBA3 /* main.m */; };
+		AE3A7B7D16339A910057EBA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3A7B7C16339A910057EBA3 /* AppDelegate.m */; };
+		AE3A7B7F16339A910057EBA3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7B7E16339A910057EBA3 /* Default.png */; };
+		AE3A7B8116339A910057EBA3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7B8016339A910057EBA3 /* Default@2x.png */; };
+		AE3A7B8316339A920057EBA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7B8216339A910057EBA3 /* Default-568h@2x.png */; };
+		AE3A7B8616339A920057EBA3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7B8416339A920057EBA3 /* MainStoryboard_iPhone.storyboard */; };
+		AE3A7B8916339A920057EBA3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7B8716339A920057EBA3 /* MainStoryboard_iPad.storyboard */; };
+		AE3A7B8C16339A920057EBA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3A7B8B16339A920057EBA3 /* ViewController.m */; };
+		AE3A7B9416339A920057EBA3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A7B9316339A920057EBA3 /* SenTestingKit.framework */; };
+		AE3A7B9516339A920057EBA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A7B6C16339A910057EBA3 /* UIKit.framework */; };
+		AE3A7B9616339A920057EBA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A7B6E16339A910057EBA3 /* Foundation.framework */; };
+		AE3A7B9E16339A920057EBA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE3A7B9C16339A920057EBA3 /* InfoPlist.strings */; };
+		AE3A7BA116339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3A7BA016339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE3A7B9716339A920057EBA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE3A7B5F16339A910057EBA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE3A7B6716339A910057EBA3;
+			remoteInfo = GoogleStaticMapsOnMapionMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE3A7B6816339A910057EBA3 /* GoogleStaticMapsOnMapionMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleStaticMapsOnMapionMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3A7B6C16339A910057EBA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE3A7B6E16339A910057EBA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE3A7B7016339A910057EBA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE3A7B7416339A910057EBA3 /* GoogleStaticMapsOnMapionMaps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleStaticMapsOnMapionMaps-Info.plist"; sourceTree = "<group>"; };
+		AE3A7B7616339A910057EBA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE3A7B7816339A910057EBA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE3A7B7A16339A910057EBA3 /* GoogleStaticMapsOnMapionMaps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleStaticMapsOnMapionMaps-Prefix.pch"; sourceTree = "<group>"; };
+		AE3A7B7B16339A910057EBA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE3A7B7C16339A910057EBA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE3A7B7E16339A910057EBA3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AE3A7B8016339A910057EBA3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AE3A7B8216339A910057EBA3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AE3A7B8516339A920057EBA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		AE3A7B8816339A920057EBA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		AE3A7B8A16339A920057EBA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE3A7B8B16339A920057EBA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE3A7B9216339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleStaticMapsOnMapionMapsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3A7B9316339A920057EBA3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AE3A7B9B16339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleStaticMapsOnMapionMapsTests-Info.plist"; sourceTree = "<group>"; };
+		AE3A7B9D16339A920057EBA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE3A7B9F16339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleStaticMapsOnMapionMapsTests.h; sourceTree = "<group>"; };
+		AE3A7BA016339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleStaticMapsOnMapionMapsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE3A7B6516339A910057EBA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3A7B6D16339A910057EBA3 /* UIKit.framework in Frameworks */,
+				AE3A7B6F16339A910057EBA3 /* Foundation.framework in Frameworks */,
+				AE3A7B7116339A910057EBA3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3A7B8E16339A920057EBA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3A7B9416339A920057EBA3 /* SenTestingKit.framework in Frameworks */,
+				AE3A7B9516339A920057EBA3 /* UIKit.framework in Frameworks */,
+				AE3A7B9616339A920057EBA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE3A7B5D16339A910057EBA3 = {
+			isa = PBXGroup;
+			children = (
+				AE3A7B7216339A910057EBA3 /* GoogleStaticMapsOnMapionMaps */,
+				AE3A7B9916339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests */,
+				AE3A7B6B16339A910057EBA3 /* Frameworks */,
+				AE3A7B6916339A910057EBA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE3A7B6916339A910057EBA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3A7B6816339A910057EBA3 /* GoogleStaticMapsOnMapionMaps.app */,
+				AE3A7B9216339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE3A7B6B16339A910057EBA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE3A7B6C16339A910057EBA3 /* UIKit.framework */,
+				AE3A7B6E16339A910057EBA3 /* Foundation.framework */,
+				AE3A7B7016339A910057EBA3 /* CoreGraphics.framework */,
+				AE3A7B9316339A920057EBA3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE3A7B7216339A910057EBA3 /* GoogleStaticMapsOnMapionMaps */ = {
+			isa = PBXGroup;
+			children = (
+				AE3A7B7B16339A910057EBA3 /* AppDelegate.h */,
+				AE3A7B7C16339A910057EBA3 /* AppDelegate.m */,
+				AE3A7B8416339A920057EBA3 /* MainStoryboard_iPhone.storyboard */,
+				AE3A7B8716339A920057EBA3 /* MainStoryboard_iPad.storyboard */,
+				AE3A7B8A16339A920057EBA3 /* ViewController.h */,
+				AE3A7B8B16339A920057EBA3 /* ViewController.m */,
+				AE3A7B7316339A910057EBA3 /* Supporting Files */,
+			);
+			path = GoogleStaticMapsOnMapionMaps;
+			sourceTree = "<group>";
+		};
+		AE3A7B7316339A910057EBA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE3A7B7416339A910057EBA3 /* GoogleStaticMapsOnMapionMaps-Info.plist */,
+				AE3A7B7516339A910057EBA3 /* InfoPlist.strings */,
+				AE3A7B7816339A910057EBA3 /* main.m */,
+				AE3A7B7A16339A910057EBA3 /* GoogleStaticMapsOnMapionMaps-Prefix.pch */,
+				AE3A7B7E16339A910057EBA3 /* Default.png */,
+				AE3A7B8016339A910057EBA3 /* Default@2x.png */,
+				AE3A7B8216339A910057EBA3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE3A7B9916339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE3A7B9F16339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.h */,
+				AE3A7BA016339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.m */,
+				AE3A7B9A16339A920057EBA3 /* Supporting Files */,
+			);
+			path = GoogleStaticMapsOnMapionMapsTests;
+			sourceTree = "<group>";
+		};
+		AE3A7B9A16339A920057EBA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE3A7B9B16339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests-Info.plist */,
+				AE3A7B9C16339A920057EBA3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE3A7B6716339A910057EBA3 /* GoogleStaticMapsOnMapionMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3A7BA416339A920057EBA3 /* Build configuration list for PBXNativeTarget "GoogleStaticMapsOnMapionMaps" */;
+			buildPhases = (
+				AE3A7B6416339A910057EBA3 /* Sources */,
+				AE3A7B6516339A910057EBA3 /* Frameworks */,
+				AE3A7B6616339A910057EBA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleStaticMapsOnMapionMaps;
+			productName = GoogleStaticMapsOnMapionMaps;
+			productReference = AE3A7B6816339A910057EBA3 /* GoogleStaticMapsOnMapionMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE3A7B9116339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3A7BA716339A920057EBA3 /* Build configuration list for PBXNativeTarget "GoogleStaticMapsOnMapionMapsTests" */;
+			buildPhases = (
+				AE3A7B8D16339A920057EBA3 /* Sources */,
+				AE3A7B8E16339A920057EBA3 /* Frameworks */,
+				AE3A7B8F16339A920057EBA3 /* Resources */,
+				AE3A7B9016339A920057EBA3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE3A7B9816339A920057EBA3 /* PBXTargetDependency */,
+			);
+			name = GoogleStaticMapsOnMapionMapsTests;
+			productName = GoogleStaticMapsOnMapionMapsTests;
+			productReference = AE3A7B9216339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE3A7B5F16339A910057EBA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = honjo2;
+			};
+			buildConfigurationList = AE3A7B6216339A910057EBA3 /* Build configuration list for PBXProject "GoogleStaticMapsOnMapionMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE3A7B5D16339A910057EBA3;
+			productRefGroup = AE3A7B6916339A910057EBA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE3A7B6716339A910057EBA3 /* GoogleStaticMapsOnMapionMaps */,
+				AE3A7B9116339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE3A7B6616339A910057EBA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3A7B7716339A910057EBA3 /* InfoPlist.strings in Resources */,
+				AE3A7B7F16339A910057EBA3 /* Default.png in Resources */,
+				AE3A7B8116339A910057EBA3 /* Default@2x.png in Resources */,
+				AE3A7B8316339A920057EBA3 /* Default-568h@2x.png in Resources */,
+				AE3A7B8616339A920057EBA3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				AE3A7B8916339A920057EBA3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3A7B8F16339A920057EBA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3A7B9E16339A920057EBA3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE3A7B9016339A920057EBA3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE3A7B6416339A910057EBA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3A7B7916339A910057EBA3 /* main.m in Sources */,
+				AE3A7B7D16339A910057EBA3 /* AppDelegate.m in Sources */,
+				AE3A7B8C16339A920057EBA3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3A7B8D16339A920057EBA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3A7BA116339A920057EBA3 /* GoogleStaticMapsOnMapionMapsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE3A7B9816339A920057EBA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE3A7B6716339A910057EBA3 /* GoogleStaticMapsOnMapionMaps */;
+			targetProxy = AE3A7B9716339A920057EBA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE3A7B7516339A910057EBA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3A7B7616339A910057EBA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE3A7B8416339A920057EBA3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3A7B8516339A920057EBA3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AE3A7B8716339A920057EBA3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3A7B8816339A920057EBA3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AE3A7B9C16339A920057EBA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3A7B9D16339A920057EBA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE3A7BA216339A920057EBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE3A7BA316339A920057EBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE3A7BA516339A920057EBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleStaticMapsOnMapionMaps/GoogleStaticMapsOnMapionMaps-Prefix.pch";
+				INFOPLIST_FILE = "GoogleStaticMapsOnMapionMaps/GoogleStaticMapsOnMapionMaps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE3A7BA616339A920057EBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleStaticMapsOnMapionMaps/GoogleStaticMapsOnMapionMaps-Prefix.pch";
+				INFOPLIST_FILE = "GoogleStaticMapsOnMapionMaps/GoogleStaticMapsOnMapionMaps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE3A7BA816339A920057EBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleStaticMapsOnMapionMaps.app/GoogleStaticMapsOnMapionMaps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleStaticMapsOnMapionMaps/GoogleStaticMapsOnMapionMaps-Prefix.pch";
+				INFOPLIST_FILE = "GoogleStaticMapsOnMapionMapsTests/GoogleStaticMapsOnMapionMapsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AE3A7BA916339A920057EBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleStaticMapsOnMapionMaps.app/GoogleStaticMapsOnMapionMaps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleStaticMapsOnMapionMaps/GoogleStaticMapsOnMapionMaps-Prefix.pch";
+				INFOPLIST_FILE = "GoogleStaticMapsOnMapionMapsTests/GoogleStaticMapsOnMapionMapsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE3A7B6216339A910057EBA3 /* Build configuration list for PBXProject "GoogleStaticMapsOnMapionMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3A7BA216339A920057EBA3 /* Debug */,
+				AE3A7BA316339A920057EBA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE3A7BA416339A920057EBA3 /* Build configuration list for PBXNativeTarget "GoogleStaticMapsOnMapionMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3A7BA516339A920057EBA3 /* Debug */,
+				AE3A7BA616339A920057EBA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE3A7BA716339A920057EBA3 /* Build configuration list for PBXNativeTarget "GoogleStaticMapsOnMapionMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3A7BA816339A920057EBA3 /* Debug */,
+				AE3A7BA916339A920057EBA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE3A7B5F16339A910057EBA3 /* Project object */;
+}
