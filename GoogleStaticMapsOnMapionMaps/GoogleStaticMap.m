@@ -20,6 +20,7 @@
   self.name = @"GoogleStaticMap";
   self.version = @"";
   self.copyright = @"Google";
+  self.tileLength = 512;
   
   _screenScale = 1.0;
   if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)]) {
